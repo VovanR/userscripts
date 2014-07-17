@@ -2,8 +2,8 @@
 // @name        Redmine Default Issue
 // @description Sets default settings in new issues
 // @namespace   https://github.com/VovanR
-// @include     http://*/redmine/*/issues/new
-// @version     1.0.1
+// @include     http://*/redmine/*/issues/new*
+// @version     1.0.2
 // @author      VovanR (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none

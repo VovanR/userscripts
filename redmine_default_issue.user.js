@@ -3,7 +3,7 @@
 // @description Sets default settings in new issues
 // @namespace   https://github.com/VovanR
 // @include     http://*/redmine/*/issues/new
-// @version     1.0.0
+// @version     1.0.1
 // @author      VovanR (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none
@@ -17,7 +17,7 @@
 		var trackerWaiting = 25;
 		if (tracker.val() !== '2') {
 			tracker.val(2).trigger('change');
-			trackerWait = 2000;
+			trackerWaiting = 2000;
 		}
 
 		// Waiting for tracker updated
@@ -30,8 +30,7 @@
 
 			var version = $('#issue_fixed_version_id');
 			version.val(3);
-		}, trackerWait);
+		}, trackerWaiting);
 	}, 2000);
 
 })();
-

@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Redmine Issue status to `In Progress`, when starting time tracker activity
+// @name        Redmine Time Tracker Activity Issue Status
 // @description If issue status is `New`, set it to `In Progress`
 // @namespace   https://github.com/VovanR
 // @include     http://*/redmine/*
-// @version     1.0.0
+// @version     1.0.1
 // @author      VovanR (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none

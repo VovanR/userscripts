@@ -15,8 +15,8 @@
 	setTimeout(function () {
 		var tracker = $('#issue_tracker_id');
 		var trackerWaiting = 25;
-		if (tracker.val() !== '2') {
-			tracker.val(2).trigger('change');
+		if (tracker.val() !== '5') {
+			tracker.val(5).trigger('change');
 			trackerWaiting = 2000;
 		}
 

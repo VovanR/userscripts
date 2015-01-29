@@ -3,7 +3,7 @@
 // @description For fastest copy-paste to git commit
 // @namespace   https://github.com/VovanR
 // @include     http://*/redmine/issues/*
-// @version     1.0.0
+// @version     1.0.1
 // @author      VovanR (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none
@@ -20,7 +20,8 @@
 
 	var commitText = 'Issue ' + issueNumber + ': ' + $issueName.text();
 
-	var $commitInput = $('<input type=\'text\' readonly value=\'' + commitText + '\' style=\'width: 100%;\' >')
+	var $commitInput = $('<input type=\'text\' readonly style=\'width: 100%;\' >');
+	$commitInput.val(commitText);
 	$content.find('.issue.details').prepend($commitInput);
 
 })(window);

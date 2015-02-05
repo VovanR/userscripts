@@ -11,6 +11,6 @@ Userscripts for web browsers
 
 [Redmine Highlight Issues](https://github.com/VovanR/userscripts/raw/master/redmine_highlight_issues.user.js) — Highlight redmine issue status cell
 
-[Redmine Time Tracker Activity Issue Status](https://github.com/VovanR/userscripts/raw/master/redmine_tt_activity_in_progress.user.js) — If issue status is `New`, set it to `In Progress`
+[Redmine Time Tracker Activity Issue Status](https://github.com/VovanR/userscripts/raw/master/redmine_tt_activity_in_progress.user.js) — If issue status is `New`, set it to `In Progress`, when you start new time entrie
 
-[Redmine Issue Commit Text](https://github.com/VovanR/userscripts/raw/master/redmine_issue_commit_text.user.js) — For fastest copy-paste to git commit
+[Redmine Issue Commit Text](https://github.com/VovanR/userscripts/raw/master/redmine_issue_commit_text.user.js) — For fastest copy-paste comment message for git commit

@@ -3,7 +3,8 @@
 // @description Sets default settings in new time entries
 // @namespace   https://github.com/VovanR
 // @include     http://*/redmine/*/time_entries/new*
-// @version     1.0.0
+// @include     http://*/redmine/issues/*
+// @version     1.0.1
 // @author      VovanR (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none
@@ -12,7 +13,7 @@
 (function () {
 
 	setTimeout(function () {
-		$('#time_entry_activity_id').val(9);
+		$('#time_entry_activity_id').val('9');
 	}, 500);
 
 })();

@@ -1,6 +1,6 @@
 # userscripts
 
-Userscripts for web browsers
+> Userscripts for web browsers
 
 [Redmine Default Issue](https://github.com/VovanR/userscripts/raw/master/redmine_default_issue.user.js) — Sets default settings in new issues
 

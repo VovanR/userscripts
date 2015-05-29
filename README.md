@@ -1,5 +1,4 @@
-userscripts
-===========
+# userscripts
 
 Userscripts for web browsers
 
@@ -14,3 +13,6 @@ Userscripts for web browsers
 [Redmine Time Tracker Activity Issue Status](https://github.com/VovanR/userscripts/raw/master/redmine_tt_activity_in_progress.user.js) — If issue status is `New`, set it to `In Progress`, when you start new time entrie
 
 [Redmine Issue Commit Text](https://github.com/VovanR/userscripts/raw/master/redmine_issue_commit_text.user.js) — For fastest copy-paste comment message for git commit
+
+## License
+MIT © [Vladimir Rodkin](https://github.com/VovanR)

@@ -13,15 +13,15 @@
 
   // Color theme (https://kuler.adobe.com/Copy-of-Flat-Design-Colors-v2-color-theme-3936285/)
   var colors = {
-      blue:   '#334d5c',
-      green:  '#45b29d',
-      yellow: '#efc94c',
-      orange: '#e27a3f',
-      red:    '#df4949',
+    blue: '#334d5c',
+    green: '#45b29d',
+    yellow: '#efc94c',
+    orange: '#e27a3f',
+    red: '#df4949',
   };
 
   $('.list.issues').find('tr.issue').each(function () {
-    var $issue  = $(this);
+    var $issue = $(this);
     var $status = $($issue.find('.status'));
     var status;
     var color;

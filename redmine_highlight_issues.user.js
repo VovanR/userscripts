@@ -3,7 +3,7 @@
 // @description Highlight redmine issue status cell
 // @namespace   https://github.com/VovanR
 // @include     http://*/redmine/*
-// @version     1.0.1
+// @version     1.1.0
 // @author      Vladimir Rodkin (https://github.com/VovanR)
 // @run-at      document-end
 // @grant       none
@@ -13,11 +13,11 @@
 
   // Color theme (https://kuler.adobe.com/Copy-of-Flat-Design-Colors-v2-color-theme-3936285/)
   var colors = {
-      blue:   '#334D5C',
-      green:  '#45B29D',
-      yellow: '#EFC94C',
-      orange: '#E27A3F',
-      red:    '#DF4949',
+      blue:   '#334d5c',
+      green:  '#45b29d',
+      yellow: '#efc94c',
+      orange: '#e27a3f',
+      red:    '#df4949',
   };
 
   $('.list.issues').find('tr.issue').each(function () {
@@ -45,15 +45,17 @@
         color = colors.blue;
         break;
 
+      case 'Fixed':
       case 'Resolved':
         color = colors.orange;
         break;
 
-      case 'Closed':
-        color = colors.red;
+      case 'Review':
+        color = colors.yellow;
         break;
 
       case 'Rejected':
+      case 'Closed':
         color = colors.red;
         break;
 
